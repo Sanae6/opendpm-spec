@@ -20,7 +20,7 @@ The local service is the heart of the OpenDPM system. It's responsible for inter
 
 Nodes are servers that store password vaults. When creating a password vault, the local service discovers all nodes on the network using a peer-to-peer discovery system, and picks multiple random servers from the list to upload the vault to. Each node can have a list of other nodes that it's aware of, allowing a client to recursively traverse the network and find all nodes that know of each other. 
 
-**Note: **this discovery system, although only done once, is inefficient if the OpenDPM network too big. This is pending a redesign to increase efficiency.
+**Note:** this discovery system, although only done once, is inefficient if the OpenDPM network too big. This is pending a redesign to increase efficiency.
 
 ### HSM
 
